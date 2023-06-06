@@ -1,3 +1,16 @@
+function changeHeading(desktop) {
+  if (desktop.matches) {
+    document.getElementById("index-header").innerHTML =
+      "Celebrating International Year of Millets - 2023";
+  } else {
+    document.getElementById("index-header").innerHTML = "IYoM - 2023";
+  }
+}
+
+var desktop = window.matchMedia("(min-width: 1000px)");
+changeHeading(desktop);
+desktop.addListener(changeHeading);
+
 var sidebarTemplate = document.createElement("template");
 
 sidebarTemplate.innerHTML = `
