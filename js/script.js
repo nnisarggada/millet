@@ -48,13 +48,13 @@ const sidebarLayer = document.getElementById("sidebar-layer");
 
 function showSidebar() {
   sidebar.style.left = "0";
-  sidebar.style.transition = "all 0.5s ease-in-out";
+  sidebar.style.transition = "all 0.3s ease-in-out";
   sidebarLayer.style.display = "block";
 }
 
 function hideSidebar() {
   sidebar.style.left = "-100%";
-  sidebar.style.transition = "all 0.5s ease-in-out";
+  sidebar.style.transition = "all 0.3s ease-in-out";
   sidebarLayer.style.display = "none";
 }
 
