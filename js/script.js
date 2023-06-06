@@ -1,9 +1,13 @@
 function changeHeading(desktop) {
   if (desktop.matches) {
-    document.getElementById("index-header").innerHTML =
-      "Celebrating International Year of Millets - 2023";
+    try {
+      document.getElementById("index-header").innerHTML =
+        "Celebrating International Year of Millets - 2023";
+    } catch {}
   } else {
-    document.getElementById("index-header").innerHTML = "IYoM - 2023";
+    try {
+      document.getElementById("index-header").innerHTML = "IYoM - 2023";
+    } catch {}
   }
 }
 
