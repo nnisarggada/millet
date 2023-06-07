@@ -8,7 +8,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  cursor: default;
 }
 
 body {
@@ -128,17 +127,37 @@ body {
   overflow-y: auto;
 }
 
+section {
+  margin-bottom: 1rem;
+}
+
 .sub-section h2 {
   margin-bottom: 1rem;
   font-size: clamp(1.5rem, 5vw, 5rem);
 }
 
 .sub-section p {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: clamp(1rem, 3vw, 2rem);
 }
 
-#millet-map {
+.sub-section p a {
+  text-decoration: none;
+  margin: 0.5rem;
+  color: var(--dark-brown);
+}
+
+.sub-section p a svg {
+  font-size: clamp(1rem, 10vw, 2rem);
+}
+
+.social-links {
+  width: 100%;
+  text-align: center;
+}
+
+.pic img {
+  margin-bottom: 1rem;
   width: 100%;
 }
 
@@ -177,5 +196,9 @@ body {
 
   .pic {
     width: 30%;
+  }
+
+  .social-links {
+    text-align: left;
   }
 }

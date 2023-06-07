@@ -29,15 +29,15 @@ sidebarTemplate.innerHTML = `
       <i class="fa-solid fa-masks-theater"></i>
       <span class="sidebar-tip">About the play</span>
     </div>
-    <div class="sidebar-icon" onclick="window.location.href='/'">
-      <i class="fa-solid fa-user"></i>
-      <span class="sidebar-tip">Cast</span>
-    </div>
+    <!-- <div class="sidebar-icon" onclick="window.location.href='/'"> -->
+    <!--   <i class="fa-solid fa-user"></i> -->
+    <!--   <span class="sidebar-tip">Cast</span> -->
+    <!-- </div> -->
     <div class="sidebar-icon" onclick="window.location.href='/shows.html'">
       <i class="fa-solid fa-ticket-alt"></i>
       <span class="sidebar-tip">Book shows</span>
     </div>
-    <div class="sidebar-icon" onclick="window.location.href='/'">
+    <div class="sidebar-icon" onclick="window.location.href='/artistichumans.html'">
       <i class="fa-solid fa-question"></i>
       <span class="sidebar-tip">About us</span>
     </div>
