@@ -156,9 +156,19 @@ section {
   text-align: center;
 }
 
+.pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .pic img {
   margin-bottom: 1rem;
   width: 100%;
+}
+
+#ah-logo {
+  width: 50%;
 }
 
 @media only screen and (min-width: 600px) {
@@ -200,5 +210,9 @@ section {
 
   .social-links {
     text-align: left;
+  }
+
+  #ah-logo {
+    width: 100%;
   }
 }
